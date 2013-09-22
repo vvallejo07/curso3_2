@@ -1,7 +1,7 @@
 //Eventos
 $(document).ready(function(){
 	document.addEventListener("deviceready",function(){
-		if(!usuarioExiste())
+		/*if(!usuarioExiste())
 			window.location.href="#registro";
 		$('#regEnv').tap(function(){
 			var nom = $('#regNom').val();
@@ -17,7 +17,7 @@ $(document).ready(function(){
 		});
 		$('#regFoto').tap(function(){
 			tomarFoto();
-		});
+		});*/
 		
 		//Crear Reservas
 		$('#nr1 ul[data-role=listview] li').tap(function(){
